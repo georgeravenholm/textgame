@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Header Files\objects">
+      <UniqueIdentifier>{44b9f651-6956-4e55-9f54-70877b043c57}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\..\%40projects\textgame\textgame\ReadMe.txt" />
@@ -27,6 +30,12 @@
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\grid.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\%40projects\textgame\textgame\game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\%40projects\textgame\textgame\obj_player.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\stdafx.cpp">
@@ -36,6 +45,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\grid.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\%40projects\textgame\textgame\game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

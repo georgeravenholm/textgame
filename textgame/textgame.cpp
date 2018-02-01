@@ -2,20 +2,24 @@
 //
 
 #include "stdafx.h"
-#include "grid.h"
 
 #include <iostream>
 
+#include "game.h"
+
 int main()
 {
-	Grid gamespace('.');
-	gamespace.Print();
+	Game videogame;
 
-	std::cout << "BREAK" << std::endl;
+	videogame.Init();
 
-	gamespace.PutChar(10, 10, 'x');
-	gamespace.Print();
-
+	for (;;)
+	{
+		system("cls");
+		videogame.Update();
+		videogame.Draw();
+	}
+	
 #ifdef _DEBUG
 	system("pause"); 
 #endif
