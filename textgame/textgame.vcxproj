@@ -138,10 +138,12 @@
     <Text Include="..\..\..\%40projects\textgame\textgame\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\%40projects\textgame\textgame\grid.h" />
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\stdafx.h" />
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\%40projects\textgame\textgame\grid.cpp" />
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

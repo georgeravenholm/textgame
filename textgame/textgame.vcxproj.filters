@@ -24,12 +24,18 @@
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\targetver.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\%40projects\textgame\textgame\grid.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\stdafx.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\textgame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\%40projects\textgame\textgame\grid.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
