@@ -33,3 +33,8 @@ void Grid::PutChar(const int x, const int y, const char c)
 	assert(y < h);
 	universe[x][y] = c;
 }
+
+void Grid::PutChar( const Vec2& pos, const char c)
+{
+	PutChar((int)pos.x, (int)pos.y, c);
+}

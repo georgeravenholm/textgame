@@ -14,13 +14,15 @@ void Game::Init()
 {
 }
 
+void Game::Update()
+{
+	gamespace.PutChar(dist_x(Generator), dist_y(Generator), '*');
+
+	gamespace.PutChar(Vec2{ 0.0f,0.0f }, '&');
+}
+
 void Game::Draw() const
 {
 	gamespace.Print();
 	system("pause");
-}
-
-void Game::Update()
-{
-	gamespace.PutChar(dist_x(Generator), dist_y(Generator), '*');
 }

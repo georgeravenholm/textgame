@@ -2,6 +2,7 @@
 
 #include <iostream>
 #include <assert.h>
+#include "vec2.h"
 
 class Grid
 {
@@ -12,6 +13,7 @@ public:
 	void Print() const;
 	void Fill(char c);
 	void PutChar( const int x, const int y, const char c );
+	void PutChar( const Vec2& pos, const char c);
 
 private:
 	static constexpr int w = 32; // sized grid
