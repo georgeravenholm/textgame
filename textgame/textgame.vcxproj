@@ -143,6 +143,7 @@
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\obj_player.h" />
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\stdafx.h" />
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\targetver.h" />
+    <ClInclude Include="..\..\..\%40projects\textgame\textgame\vec2.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\game.cpp" />
