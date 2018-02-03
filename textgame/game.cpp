@@ -21,8 +21,10 @@ void Game::Update()
 	gamespace.PutChar(Vec2{ 0.0f,0.0f }, '&');
 }
 
-void Game::Draw() const
+void Game::Draw()
 {
 	gamespace.Print();
+	std::cout << "curtime: " << clk.CurTime() << std::endl;
+	std::cout << "deltatime: " << clk.DeltaTime() << std::endl;
 	system("pause");
 }

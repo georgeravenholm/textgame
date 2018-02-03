@@ -39,6 +39,9 @@
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\vec2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\%40projects\textgame\textgame\clock.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\stdafx.cpp">
@@ -51,6 +54,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\%40projects\textgame\textgame\clock.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

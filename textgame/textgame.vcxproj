@@ -138,6 +138,7 @@
     <Text Include="..\..\..\%40projects\textgame\textgame\ReadMe.txt" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\%40projects\textgame\textgame\clock.h" />
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\game.h" />
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\grid.h" />
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\obj_player.h" />
@@ -146,6 +147,7 @@
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\vec2.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\%40projects\textgame\textgame\clock.cpp" />
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\game.cpp" />
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\grid.cpp" />
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\stdafx.cpp">

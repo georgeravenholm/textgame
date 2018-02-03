@@ -8,17 +8,18 @@
 #include <chrono>
 
 #include "grid.h"
+#include "clock.h"
 
 class Game
 {
 public:
 	Game();
 	void Init();
-	void Draw() const;
+	void Draw();
 	void Update();
 private:
 	Grid gamespace = Grid('.'); // create grid
-
+	Clock clk;
 	
 
 	//////////// GAME-SPECIFIC ///////////
