@@ -15,7 +15,6 @@ int main()
 
 	for (;;)
 	{
-		system("cls");
 		videogame.Update();
 		videogame.Draw();
 	}

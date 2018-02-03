@@ -18,9 +18,12 @@ public:
 	void Draw();
 	void Update();
 private:
-	Grid gamespace = Grid('.'); // create grid
+	Grid gamespace = Grid(BGChar); // create grid
 	Clock clk;
-	
+
+	void gotoxy(int x, int y);
+
+	static constexpr char BGChar = '.';
 
 	//////////// GAME-SPECIFIC ///////////
 	std::default_random_engine Generator;
@@ -28,4 +31,5 @@ private:
 	std::uniform_int_distribution<int> dist_y;
 
 	float timer;
+	
 };
