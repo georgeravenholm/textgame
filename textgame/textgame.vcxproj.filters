@@ -13,7 +13,10 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
-    <Filter Include="Header Files\objects">
+    <Filter Include="Source Files\ents">
+      <UniqueIdentifier>{8fb14a65-b922-4a9d-9e64-a442512a75b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\ents">
       <UniqueIdentifier>{44b9f651-6956-4e55-9f54-70877b043c57}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -34,7 +37,7 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\obj_player.h">
-      <Filter>Header Files\objects</Filter>
+      <Filter>Header Files\ents</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\vec2.h">
       <Filter>Header Files</Filter>
@@ -42,11 +45,11 @@
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\clock.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="..\..\..\%40projects\textgame\textgame\entity.h">
-      <Filter>Header Files\objects</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\ent_teste.h">
-      <Filter>Header Files\objects</Filter>
+      <Filter>Header Files\ents</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\%40projects\textgame\textgame\entity.h">
+      <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -69,7 +72,7 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\ent_teste.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\ents</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
