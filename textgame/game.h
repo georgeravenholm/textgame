@@ -10,6 +10,8 @@
 #include "grid.h"
 #include "clock.h"
 
+#include "ent_teste.h"
+
 class Game
 {
 public:
@@ -21,7 +23,7 @@ private:
 	Grid gamespace = Grid(BGChar); // create grid
 	Clock clk;
 
-	void gotoxy(int x, int y);
+	void gotoxy(short x, short y);
 
 	static constexpr char BGChar = '.';
 
@@ -32,4 +34,6 @@ private:
 
 	float timer;
 	
+	////////// TESTE ////////////
+	TestEntity blob;
 };

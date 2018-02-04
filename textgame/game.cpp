@@ -13,6 +13,8 @@ Game::Game()
 void Game::Init()
 {
 	timer = clk.CurTime();
+
+	blob.SetPos(10, 10);
 }
 
 void Game::Update()
@@ -24,12 +26,17 @@ void Game::Update()
 		gamespace.PutChar(dist_x(Generator), dist_y(Generator), '*');
 		timer = clk.CurTime();
 	}
+
+	blob.Think();
 }
 
 void Game::Draw()
 {
 	//system("cls");
 	gotoxy(0, 0);
+
+	blob.Draw(gamespace);
+
 	//std::cout << std::flush;
 	gamespace.Print();
 	std::cout << "curtime: " << clk.CurTime() << std::endl;
@@ -38,7 +45,7 @@ void Game::Draw()
 	//system("pause");
 }
 
-void Game::gotoxy(int x, int y) {
+void Game::gotoxy(short x, short y) {
 	COORD pos = { x, y };
 	HANDLE output = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleCursorPosition(output, pos);
