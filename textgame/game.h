@@ -7,10 +7,15 @@
 
 #include <chrono>
 
+#include <ctime>
+
 #include "grid.h"
 #include "clock.h"
 
 #include "ent_teste.h"
+#include "ent_trap.h"
+
+#define NO_TRAPS 12
 
 class Game
 {
@@ -34,6 +39,6 @@ private:
 
 	float timer;
 	
-	////////// TESTE ////////////
-	TestEntity blob;
+	////////// big ol game sgit ////////////
+	EntTrap traps[NO_TRAPS];
 };

@@ -5,16 +5,20 @@
 
 Game::Game()
 	:
-	dist_x(0, 31), // init random sgits
+	Generator(time(NULL)),
+	dist_x(10, 31), // init random sgits
 	dist_y(0, 15)
 {
+	// place traps
+	for (int i = 0; i < NO_TRAPS; ++i)
+		traps[i].SetPos(dist_x(Generator), dist_y(Generator));
 }
 
 void Game::Init()
 {
 	timer = clk.CurTime();
 
-	blob.SetPos(10, 10);
+	
 }
 
 void Game::Update()
@@ -27,7 +31,7 @@ void Game::Update()
 		timer = clk.CurTime();
 	}
 
-	blob.Think();
+	
 }
 
 void Game::Draw()
@@ -35,7 +39,9 @@ void Game::Draw()
 	//system("cls");
 	gotoxy(0, 0);
 
-	blob.Draw(gamespace);
+	// traps
+	for (int i = 0; i < NO_TRAPS; ++i)
+		traps[i].Draw(gamespace);
 
 	//std::cout << std::flush;
 	gamespace.Print();

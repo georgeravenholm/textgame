@@ -51,6 +51,9 @@
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\entity.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\..\%40projects\textgame\textgame\ent_trap.h">
+      <Filter>Header Files\ents</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\..\%40projects\textgame\textgame\stdafx.cpp">

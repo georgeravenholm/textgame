@@ -141,6 +141,7 @@
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\clock.h" />
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\entity.h" />
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\ent_teste.h" />
+    <ClInclude Include="..\..\..\%40projects\textgame\textgame\ent_trap.h" />
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\game.h" />
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\grid.h" />
     <ClInclude Include="..\..\..\%40projects\textgame\textgame\obj_player.h" />
